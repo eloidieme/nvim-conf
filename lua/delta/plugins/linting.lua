@@ -12,7 +12,6 @@ return {
             css = { "stylelint" },
             json = { "jsonlint" },
             yaml = { "yamllint" },
-            markdown = { "markdownlint" },
             python = { "pylint" },
             cpp = { "cpplint" },
             java = { "checkstyle" },
