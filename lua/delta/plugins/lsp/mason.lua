@@ -32,7 +32,6 @@ return {
                 "clangd",
                 "cmake",
                 "dockerls",
-                "glslls",
                 "jsonls",
                 "jdtls",
                 "pyright",
