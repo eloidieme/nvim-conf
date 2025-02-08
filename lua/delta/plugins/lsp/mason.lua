@@ -22,16 +22,10 @@ return {
 
         mason_lspconfig.setup({
             ensure_installed = {
-                "tsserver",
-                "html",
-                "cssls",
-                "tailwindcss",
                 "lua_ls",
-                "arduino_language_server",
                 "bashls",
                 "clangd",
                 "cmake",
-                "dockerls",
                 "jsonls",
                 "jdtls",
                 "pyright",
@@ -48,15 +42,6 @@ return {
                 "black",
                 "clang-format",
                 "cmakelang",
-                "google-java-format",
-                "asmfmt",
-                "eslint_d",
-                "pylint",
-                "stylelint",
-                "jsonlint",
-                "yamllint",
-                "cpplint",
-                "checkstyle",
             },
         })
     end,
