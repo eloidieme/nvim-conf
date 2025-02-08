@@ -23,12 +23,30 @@ return {
         mason_lspconfig.setup({
             ensure_installed = {
                 "lua_ls",
+                "clangd",
+                "rust_analyzer",
+                "pyright",
+                "ts_ls",
+                "html",
+                "cssls",
+                "jsonls",
+                "taplo",
+                "yamlls",
+                "asm_lsp",
             },
         })
 
         mason_tool_installer.setup({
             ensure_installed = {
                 "stylua",
+                "clang-format",
+                "black",
+                "prettier",
+                "cpplint",
+                "ruff",
+                "eslint",
+                "yamllint",
+                "taplo",
             },
         })
     end,

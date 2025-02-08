@@ -15,8 +15,19 @@ return {
             autotag = {
                 enable = true,
             },
-            ensure_installed = {  
+            ensure_installed = {
                 "lua",
+                "c",
+                "cpp",
+                "rust",
+                "python",
+                "javascript",
+                "html",
+                "css",
+                "json",
+                "yaml",
+                "toml",
+                "bash",
             },
             incremental_selection = {
                 enable = true,

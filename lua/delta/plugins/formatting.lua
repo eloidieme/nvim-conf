@@ -7,6 +7,16 @@ return {
         conform.setup({
             formatters_by_ft = {
                 lua = { "stylua" },
+                c = { "clang-format" },
+                cpp = { "clang-format" },
+                rust = { "rustfmt" },
+                python = { "black" },
+                javascript = { "prettier" },
+                html = { "prettier" },
+                css = { "prettier" },
+                json = { "prettier" },
+                yaml = { "prettier" },
+                toml = { "taplo" },
             },
             format_on_save = {
                 lsp_fallback = true,
