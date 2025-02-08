@@ -23,25 +23,12 @@ return {
         mason_lspconfig.setup({
             ensure_installed = {
                 "lua_ls",
-                "bashls",
-                "clangd",
-                "cmake",
-                "jsonls",
-                "jdtls",
-                "pyright",
-                "sqlls",
-                "zls",
             },
         })
 
         mason_tool_installer.setup({
             ensure_installed = {
-                "prettier",
                 "stylua",
-                "isort",
-                "black",
-                "clang-format",
-                "cmakelang",
             },
         })
     end,
